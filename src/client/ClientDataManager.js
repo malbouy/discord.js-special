@@ -76,6 +76,9 @@ class ClientDataManager {
           case Constants.ChannelTypes.STORE:
             channel = new StoreChannel(guild, data);
             break;
+          case Constants.ChannelTypes.GUILD_STAGE_VOICE:
+            channel = new VoiceChannel(guild, data);
+            break;
         }
 
         guild.channels.set(channel.id, channel);
