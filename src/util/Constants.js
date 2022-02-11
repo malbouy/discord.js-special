@@ -288,7 +288,6 @@ exports.ChannelTypes = {
   CATEGORY: 4,
   NEWS: 5,
   STORE: 6,
-  GUILD_STAGE_VOICE: 13,
 };
 
 exports.OPCodes = {
